@@ -68,6 +68,9 @@ header.shadow {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--hover);
+    background-color: #4c39d8;
+    box-sizing: border-box;
+    
 }
 
 .navbar {
@@ -224,12 +227,12 @@ header.shadow {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 2rem;
-    margin-top: 3rem;
+    gap: 1rem;
+    margin-top: 2rem;
 }
 
 .skills-img img {
-    width: 80%;
+    width: 100%;
     padding-left: 4rem;
     object-position: center;
 
